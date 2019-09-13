@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>JavaScript Calculator</title>
+</head>
+
+<body>
+    <div class="container">
+
+        <!--Div displays results and inputs-->
+        <div class="result">
+            <input type="text" value="" disabled>
+        </div>
+
+        <!--div for numbers-->
+        <form>
+            <div class="row">
+                <input type="button" value="C" data-clear-all>
+                <input type="button" value="DEL" data-delete>
+                <input type="button" value="%" data-operator>
+                <input type="button" value="/" data-operator>
+            </div>
+
+
+            <div class="row">
+                <input type="button" value="7" data-number>
+                <input type="button" value="8" data-number>
+                <input type="button" value="9" data-number>
+                <input type="button" value="*" data-operator>
+            </div>
+
+            <div class="row">
+                <input type="button" value="4" data-number>
+                <input type="button" value="5" data-number>
+                <input type="button" value="6" data-number>
+                <input type="button" value="-" data-operator>
+            </div>
+
+            <div class="row">
+                <input type="button" value="1" data-number>
+                <input type="button" value="2" data-number>
+                <input type="button" value="3" data-number>
+                <input type="button" value="+" data-operator>
+            </div>
+
+            <div class="row">
+                <input type="button" value="C">
+                <input type="button" value="0" data-number>
+                <input type="button" value="." data-number>
+                <input type="button" value="=" data-equal-to>
+            </div>
+
+        </form>
+    </div>
+
+    <script src="diffscript.js"></script>
+</body>
+
+</html>
